@@ -4,17 +4,17 @@ import Cinema from '~/pages/cinema';
 import Fashion from '~/pages/fashion';
 import Grooming from '~/pages/grooming';
 import LifeStyle from '~/pages/lifestyle';
-import { publicRoutes } from './routes';
-import { Component } from 'react';
+
 function App() {
     return (
         <Router>
             <div className="App">
                 <Routes>
-                    {publicRoutes.map((route, index) => {
-                        const Page = route.component;
-                        return <Route key={index} path={route.path} element={<Page />} />;
-                    })}
+                    <Route path="/" element={<Home />} />
+                    <Route path="/cinema" element={<Cinema />} />
+                    <Route path="/fashion" element={<Fashion />} />
+                    <Route path="/grooming" element={<Grooming />} />
+                    <Route path="/lifestyle" element={<LifeStyle />} />
                 </Routes>
             </div>
         </Router>
