@@ -11,7 +11,7 @@ const publicRoutes = [
     { path: '/fashion', component: Fashion },
     { path: '/grooming', component: Grooming },
     { path: '/lifestyle', component: LifeStyle },
-    { path: '/contact', component: Contact, layout: null },
+    { path: '/contact', component: Contact },
 ];
 
 const privateRoutes = [];

@@ -1,3 +1,4 @@
+import { HeaderOnly } from '~/components/Layout';
 import Home from '~/pages/home';
 import Cinema from '~/pages/cinema';
 import Fashion from '~/pages/fashion';
