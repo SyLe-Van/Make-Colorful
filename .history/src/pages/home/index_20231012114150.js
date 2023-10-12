@@ -12,22 +12,22 @@ const images = [
     'https://mannup.vn/wp-content/uploads/2017/10/e9bb873393dfe5504866191bc66e28a7-e1509350428917.jpg',
 ];
 
-// const variants = {
-//     initial: {
-//         x: 200,
-//         opacity: 0,
-//     },
+const variants = {
+    initial: {
+        x: 200,
+        opacity: 0,
+    },
 
-//     animate: {
-//         x: 0,
-//         opacity: 1,
-//     },
+    animate: {
+        x: 0,
+        opacity: 1,
+    },
 
-//     exit: {
-//         x: -200,
-//         opacity: 0,
-//     },
-// };
+    exit: {
+        x: -200,
+        opacity: 0,
+    },
+};
 
 function Home() {
     const [index, setIndex] = useState(0);
@@ -50,7 +50,7 @@ function Home() {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('slideshow')}>
-                {/* <AnimatePresence initial={false}>
+                <AnimatePresence initial={false}>
                     <motion.img
                         variants={variants}
                         animate="animate"
@@ -61,8 +61,7 @@ function Home() {
                         className={cx('slides')}
                         key={images[index]}
                     />
-                </AnimatePresence> */}
-                <img src={images[index]} alt="slides" className={cx('slides')} />
+                </AnimatePresence>
                 <button className={cx('prev')} onClick={prevStep}>
                     →
                 </button>

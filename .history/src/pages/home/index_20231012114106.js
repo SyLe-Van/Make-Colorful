@@ -50,7 +50,7 @@ function Home() {
     return (
         <div className={cx('wrapper')}>
             <div className={cx('slideshow')}>
-                {/* <AnimatePresence initial={false}>
+                <AnimatePresence initial={false}>
                     <motion.img
                         variants={variants}
                         animate="animate"
@@ -61,8 +61,7 @@ function Home() {
                         className={cx('slides')}
                         key={images[index]}
                     />
-                </AnimatePresence> */}
-                <img src={images[index]} alt="slides" className={cx('slides')} />
+                </AnimatePresence>
                 <button className={cx('prev')} onClick={prevStep}>
                     →
                 </button>

@@ -62,7 +62,6 @@ function Home() {
                         key={images[index]}
                     />
                 </AnimatePresence> */}
-                <img src={images[index]} alt="slides" className={cx('slides')} />
                 <button className={cx('prev')} onClick={prevStep}>
                     →
                 </button>
