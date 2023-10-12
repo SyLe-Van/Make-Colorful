@@ -1,0 +1,23 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    padding-top: 100px;
+    display: flex;
+    height: 800px;
+    background-color: black;
+}
+
+.slideshow {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    width: 550px;
+    height: 650px;
+    margin-right: -35px;
+}

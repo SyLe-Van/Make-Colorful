@@ -1,0 +1,53 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    padding-top: 100px;
+    display: flex;
+    height: 800px;
+    width: 800px;
+    background-color: black;
+}
+
+.slideshow {
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slides {
+    width: 600px;
+    height: 650px;
+    margin-left: 75px;
+}
+
+button {
+    padding: 16px;
+    font-size: 18px;
+    width: 60px;
+    aspect-ratio: 1;
+    border-radius: 32px;
+    background-color: aquamarine;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+}
+
+// button:hover {
+//     background-color: black;
+// }
+
+// .prev {
+//     position: absolute;
+//     top: 50%;
+//     left: 16px;
+// }
+
+// .next {
+//     position: absolute;
+//     top: 50%;
+//     right: 16px;
+// }

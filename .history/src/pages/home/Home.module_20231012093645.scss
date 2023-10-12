@@ -1,0 +1,21 @@
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    padding-top: 50px;
+    display: flex;
+    height: 100vh;
+    background-color: rgb(150, 145, 145);
+}
+
+.slideshow {
+    margin: auto;
+    width: 700px;
+    height: 700px;
+    position: relative;
+    // aspect-ratio: calc(2 / 1);
+    overflow: hidden;
+    border-radius: 10px;
+}
